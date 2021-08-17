@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:'New Tegomin', serif;
+}
+p{
+    font-weight: 300;
+    color: : #111;
+}
+body{
+    min-height: 1000px;
+}
+.banner{
+    position:relative;
+    width: 100%;
+    min-height: 90vh;
+    display:flex;
+    justify-content: left;
+    align-items:center;
+    background:url(main.jpg);
+    background-size: cover;
+}
+.banner .content{
+    max-width:900px;
+    text-align:center;;
+}
+.banner .content h1{
+    font-size: 4em;
+    color: #fff;
+    
+}
+.banner .content p{
+    font-size: 1em;
+    color: #fff;
+}
+.btn{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display:inline-block;
+    padding: 10px 30px;
+    margin-top: :20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing:2px;
+    transition:0.5s;
+}
+.btn:hover{
+    letter-spacing: 6px;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:0px 10px;
+    z-index:10000;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    transition:0.5s;
+    background:#111;
+}
+header.sticky{
+    background:#111;
+    padding:10px 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0,0.5);
+}
+header .logo{
+    color:#fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header.sticky .logo{
+    color: #fff;
+}
+header .navbar{
+    position:relative;
+    display: flex;
+}
+header .navbar li{
+    list-style: none;
+    margin-left: 30px;  
+}
+header .navbar li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 300;
+}
+header.sticky .navbar li a{
+    color:#fff;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.title h2{
+    font-size: 50px;
+}
+.feature .content{
+    display: inline;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+    margin-top:20px;
+    margin-left: 40px;
+}
+.feature .content .box{
+    width:340px;
+    margin:20px;
+    border:15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+   
+}
+.feature .content .box .imgBx {
+    position:relative;
+    width:100%;
+    height:300px;
+    justify-content: center;
+}
+.feature .content .box.imgBx img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background:cover;
+    margin-left: 40px;
+}
+.feature .content .box .text{
+    padding:1px 0 1px;
+}
+.feature .content .box .text h3 {
+    text-align: center;
+    font-weight: 200;
+    font-size:30px;
+}
+.tour .content{
+    display:inline-block;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+    margin
+}
+.tour .content .box{
+    width: 500px;
+    margin:50px;
+}
+.tour .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.tour .content .box .imgBx img{
+    position:absolute;
+    top:0;
+    left:10px;
+    right:10px;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.tour .content .box .text{
+    padding:50px 20px 50px;
+}
+.tour .content .box .text h3 {
+    text-align: center;
+    font-weight: 200;
+    font-size:30px;
+}
+.contact{
+    background-size: cover;
+}
+.contactForm{
+    padding:75px 50px;
+    background:#fff;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+    margin-top: 10px;
+
+}
+.contactForm h3{
+    color:#111;
+    font-size:1.2em;
+    margin-bottom:20px;
+     font-weight: 500;
+}
+.contactForm .inputBox{
+    position:relative;
+    width:100%;
+    margin-bottom: 20px;
+}
+.contactForm .inputBox input{
+    width:100%;
+    border:1px solid #555;
+    padding:10px;
+    color:#111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize:none;
+}
+.contactForm .inputBox input[type="submit"]
+{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+    
